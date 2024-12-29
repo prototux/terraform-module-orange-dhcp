@@ -6,7 +6,7 @@ This is a terraform module implementing Orange's custom auth algorithm (and the 
 ## Usage
 ```terraform
 module "orange_dhcp" {
-  source = "https://github.com/prototux/terraform-module-orange-dhcp.git"
+  source = "github.com/prototux/terraform-module-orange-dhcp"
 
   login    = "fti/abcdefg" # Replace with your Orange PPP Login, found in the welcome email
   password = "abcdefg"     # Same, replace with your Orange PPP Password found in the same email
